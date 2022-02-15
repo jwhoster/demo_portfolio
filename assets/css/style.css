@@ -12,7 +12,7 @@ dl{
     margin-bottom: 30px;
 }
 .title01 h1{
-    font-weight: 300;
+    font-weight: 500;
     font-family: 'Raleway', sans-serif;
 }
 .title01 p{
@@ -27,6 +27,8 @@ body{
     font-size: 16px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
+    min-height: 100vh;
+    width: 100%;
 }
 .pc_top{
     position: fixed;
@@ -54,12 +56,16 @@ body{
     margin-right: auto;
 }
 .top_inner img{
+    margin-top: 30px;
     width: 100%;
 }
 .profile_pic{
-    background-image: url(../img/index/profile_pic.jpg);;
+    background-image: url(../img/index/profile_pic.jpg);
     width: 100%;
+    background-size: contain;
+    background-position: center top;
     height: 348px;
+    background-repeat: no-repeat;
 }
 .profile_name{
     text-align: center;
@@ -184,6 +190,9 @@ body{
     margin-right: auto;
 
 }
+.works_card h5{
+    font-weight: 500;
+}
 .works_page ul li{
     list-style: none;
     font-size: 12px;
@@ -195,3 +204,13 @@ body{
 
 }
 
+@media screen and (max-width:768px){
+    .pc_top{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    #top{
+        width: 100%;
+    }
+}
