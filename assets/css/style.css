@@ -1,26 +1,32 @@
-p,h1,h2{
+p,h1,h2,h3,h4,h5,ul{
     margin: 0;
     padding: 0;
 
 }
+dl{
+    margin: 0;
+}
 .title01{
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .title01 h1{
-    padding-top: 36px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
 }
 .title01 p{
-    font-size: 9px;
-    padding-top: 5px;
-    padding-bottom: 19px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 11px;
 }
 .title02{
     border-bottom: solid 2px #000;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 body{
     font-size: 16px;
     font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
 }
 .pc_top{
     position: fixed;
@@ -57,23 +63,23 @@ body{
 }
 .profile_name{
     text-align: center;
-    padding-top: 36px;
+    padding-top: 30px;
 }
-.profile_name p{ 
-    font-size: 9px;
-}
+
 .profile_name h2{
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .profile_name h2 span{
-    font-size: 11px;
-    padding-left: 11px;
+    font-size: 10px;
+    padding-left: 5px;
 }
 .profile_sentence{
     font-size: 12px;
+    font-weight: 400;
     line-height: 2em;
     text-align: center;
-    padding-top: 34px;
+    padding-top: 15px;
 }
 
 
@@ -88,11 +94,12 @@ body{
     padding-top: 30px;
 }
 .profile_qa ul li span{
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .profile_feature{
     background-color: #EDEDED;
+    margin-top: 30px;
 }
 
 .profile_feature_box{
@@ -102,14 +109,21 @@ body{
     margin-right: auto;
     text-align: center;
     margin-top: 30px;
-    height: 430px;
+    height: 400px;
 
 }
 .profile_feature_box img{
-    margin-top: 32px;
+    margin-top: 60px;
+    width: 70px;
+}
+.profile_feature_box .w {
+    width: 90px;
 }
 .profile_feature_box h3{
     position: relative;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
 }
 .profile_feature_box h3::after {
 	content: '';
@@ -123,6 +137,7 @@ body{
 	background-color: #000; 
 }
 .profile_feature_box p{
+    font-size: 13px;
     line-height: 2em;
     width: 280px;
     margin-left: auto;
@@ -131,15 +146,52 @@ body{
 }
 
 
-.profile_skill_inner{
+.profile_skill_inner dl{
     display: flex;
     width: 335px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
     align-items: center;
-    padding-top: 26px;
+    margin-top: 30px;
 }
-.profile_skill_L{
+.profile_skill_inner dt{
     text-align: center;
 }
+.profile_skill_inner dt img{
+    width: 30px;
+}
+.profile_skill_inner dt h4{
+    font-size: 8px;
+}
+.profile_skill_inner dt p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.profile_skill_inner dt p span{
+    color: #CBCBCB;
+}
+.profile_skill_inner dd{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.works_card{
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.works_page ul li{
+    list-style: none;
+    font-size: 12px;
+    line-height: 2em;
+
+}
+.works_page ul li img{
+    width: 30px;
+
+}
+
