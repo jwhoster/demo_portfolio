@@ -1,0 +1,145 @@
+p,h1,h2{
+    margin: 0;
+    padding: 0;
+
+}
+.title01{
+    text-align: center;
+}
+.title01 h1{
+    padding-top: 36px;
+}
+.title01 p{
+    font-size: 9px;
+    padding-top: 5px;
+    padding-bottom: 19px;
+}
+.title02{
+    border-bottom: solid 2px #000;
+    padding-top: 30px;
+}
+body{
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.pc_top{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../img/index/key_visual.jpg);
+    opacity: 0.2;
+
+}
+#top{
+    width: 375px;
+    background-color: #fff;
+    border: solid 1px #000;
+    position: absolute;;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.top_inner{
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top_inner img{
+    width: 100%;
+}
+.profile_pic{
+    background-image: url(../img/index/profile_pic.jpg);;
+    width: 100%;
+    height: 348px;
+}
+.profile_name{
+    text-align: center;
+    padding-top: 36px;
+}
+.profile_name p{ 
+    font-size: 9px;
+}
+.profile_name h2{
+    font-size: 20px;
+}
+.profile_name h2 span{
+    font-size: 11px;
+    padding-left: 11px;
+}
+.profile_sentence{
+    font-size: 12px;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 34px;
+}
+
+
+
+.profile_qa ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 2em;
+}
+.profile_qa ul li {
+    padding-top: 30px;
+}
+.profile_qa ul li span{
+    font-weight: 700;
+}
+
+.profile_feature{
+    background-color: #EDEDED;
+}
+
+.profile_feature_box{
+    background-color: #fff;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 30px;
+    height: 430px;
+
+}
+.profile_feature_box img{
+    margin-top: 32px;
+}
+.profile_feature_box h3{
+    position: relative;
+}
+.profile_feature_box h3::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%; 
+	transform: translate(-50%); 
+	bottom: -15px; 
+	width: 25px; 
+	height: 2px;
+	background-color: #000; 
+}
+.profile_feature_box p{
+    line-height: 2em;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+
+.profile_skill_inner{
+    display: flex;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+}
+.profile_skill_L{
+    text-align: center;
+}
