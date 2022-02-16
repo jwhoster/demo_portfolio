@@ -42,7 +42,7 @@ body{
     opacity: 0.2;
 
 }
-#top{
+#top{ 
     width: 375px;
     background-color: #fff;
     border: solid 1px #000;
@@ -58,8 +58,29 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+ #header{
+    z-index: 1;
+    top: 3%;
+    position: sticky;
+    position: -webkit-sticky;
+} 
+
+
+#header li{
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    padding: 5px 10px;
+    text-align: right;
+
+}
+#header li span{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+#header li a{
+    text-decoration: none;
+    color: #000;
+}
 .top_inner img{
-    margin-top: 30px;
     width: 100%;
 }
 .profile_pic{
