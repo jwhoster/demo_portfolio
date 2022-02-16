@@ -69,7 +69,6 @@ body{
     z-index: 1;
     position: fixed;
     margin-left: 250px;
-    
 } 
 
 #header li{
@@ -77,7 +76,7 @@ body{
     list-style: none;
     padding: 20px 10px;
     text-align: left;
-
+    
 }
 #header li span{
     font-family: 'Bai Jamjuree', sans-serif;
@@ -86,6 +85,9 @@ body{
     text-decoration: none;
     color: #000;
 }
+#header li a:hover {
+    color: gray;
+  }
 
 .top_inner img{
     width: 100%;
