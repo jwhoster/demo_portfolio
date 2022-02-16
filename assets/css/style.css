@@ -47,40 +47,45 @@ body{
     background-color: #fff;
     border: solid 1px #000;
     position: absolute;;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+
 }
 .top_inner{
     width: 335px;
     margin-left: auto;
     margin-right: auto;
 }
- #header{
+
+#header{
     z-index: 1;
-    top: 3%;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
+    margin-left: 250px;
+    
 } 
 
 #header li{
+    font-weight: 400;
     font-family: 'Raleway', sans-serif;
     list-style: none;
     padding: 20px 10px;
-    text-align: right;
+    text-align: left;
 
 }
 #header li span{
+    font-weight: 400;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 #header li a{
     text-decoration: none;
     color: #000;
 }
+
 .top_inner img{
     width: 100%;
+    margin-top: 30px;
 }
 .profile_pic{
     background-image: url(../img/index/profile_pic.jpg);
