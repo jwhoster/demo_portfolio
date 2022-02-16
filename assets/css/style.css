@@ -8,8 +8,8 @@ dl{
 }
 .title01{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .title01 h1{
     font-weight: 500;
@@ -22,6 +22,9 @@ dl{
 .title02{
     border-bottom: solid 2px #000;
     padding-top: 40px;
+}
+.title02 span{
+    font-size: 13px;
 }
 body{
     font-size: 16px;
@@ -69,16 +72,18 @@ body{
 }
 .profile_name{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .profile_name h2{
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
+    letter-spacing: 2px;
 }
-.profile_name h2 span{
-    font-size: 10px;
-    padding-left: 5px;
+.profile_name  p{
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
 }
 .profile_sentence{
     font-size: 12px;
@@ -110,16 +115,18 @@ body{
 
 .profile_feature_box{
     background-color: #fff;
-    width: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    margin-top: 30px;
-    height: 400px;
+    width: 335px;
+    height: 350px;
 
 }
 .profile_feature_box img{
-    margin-top: 60px;
     width: 70px;
 }
 .profile_feature_box .w {
@@ -197,6 +204,7 @@ body{
     list-style: none;
     font-size: 12px;
     line-height: 2em;
+    padding-top: 20px;
 
 }
 .works_page ul li img{
@@ -218,6 +226,7 @@ body{
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 100px;
+    text-decoration: none;
 }
 .contact_button p{
     color: #fff;
