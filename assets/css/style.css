@@ -52,6 +52,7 @@ body{
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
+    height: 100vh;
 }
 .top_inner{
     width: 335px;
@@ -65,11 +66,10 @@ body{
     position: -webkit-sticky;
 } 
 
-
 #header li{
     font-family: 'Raleway', sans-serif;
     list-style: none;
-    padding: 5px 10px;
+    padding: 20px 10px;
     text-align: right;
 
 }
