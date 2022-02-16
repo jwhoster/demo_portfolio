@@ -262,6 +262,19 @@
                 </div>
             </div>    
         </div>
-
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+            $('a[href^="#"]').click(function(){
+                var adjust = 0;
+                var speed = 500;
+                var href= $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top + adjust;
+                $('body,html').animate({scrollTop:position}, speed, 'swing');
+                return false;
+            });
+            });
+        </script>
 </body>
 </html>
