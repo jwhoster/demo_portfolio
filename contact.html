@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/vendor/normalize.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,500;0,600;1,500;1,600&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  <title>CONTACT</title>
+</head>
+<body>
+    <div class="pc_contact">  
+    </div>
+        <div id="contact">
+            <div class="contact_inner">
+  
+                <div class="title01">
+                    <h1>CONTACT</h1>
+                </div>
+
+                <form action="mainform.php">
+                <!--actionは送信先のプログラム-->
+                <dl>
+                <dt>会社名</dt>
+                <dd>
+                <input type="text" name="company" placeholder="株式会社テスト">
+                </dd>
+
+                <dt>お名前<span class="required">必須</span></dt>
+                <dd>
+                    <input type="text" name="last-name" placeholder="山田">
+                    <input type="text" name="first-name" placeholder="太郎">
+                </dd>
+                <dt>メールアドレス<span class="required">必須</span></dt>
+                <dd>
+                    <input type="email" name="email" required placeholder="info@example.com">
+                </dd>
+
+                <dt>感想</dt>
+                <dd>
+                    <input type="text" name="thoughts" required placeholder="お問い合わせ内容">
+                </dd>
+                </dl>
+
+                <input type="submit" value="送信">
+
+                </form>
+            </div>
+        </div>
+
+</body>
+</html>
