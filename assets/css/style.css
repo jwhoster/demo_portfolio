@@ -89,17 +89,28 @@ body{
     color: gray;
   }
 
-.top_inner img{
+.top_inner .kv{
     width: 100%;
     margin-top: 30px;
 }
-.profile_pic{
+/* .profile_pic{
     background-image: url(../img/index/profile_pic.jpg);
     width: 100%;
-    background-size: contain;
-    background-position: center top;
+    background-size: ;
+    background-position: left;
     height: 348px;
     background-repeat: no-repeat;
+    box-shadow: 10px 10px 0 gray;
+} */
+.profile_pic{
+    width: 335px;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0 gray;
+}
+.profile_pic img{
+    width: 100%;
 }
 .profile_name{
     text-align: center;
@@ -269,7 +280,22 @@ body{
     }
 }
 @media screen and (max-width:768px){
-    #top{
+    #top,.top_inner{
         width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    #header{
+        z-index: 100;
+        position: fixed;
+        right: 5%;
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width:768px){
+    .title02,.profile_qa ul,.contact_button{
+        width: 335px;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
