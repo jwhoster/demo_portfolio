@@ -17,7 +17,7 @@ dl{
 }
 .title01 p{
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 11px;
+    font-size: 16px;
 }
 .title02{
     border-bottom: solid 2px #000;
@@ -91,7 +91,6 @@ body{
 
 .top_inner .kv{
     width: 100%;
-    margin-top: 30px;
 }
 /* .profile_pic{
     background-image: url(../img/index/profile_pic.jpg);
@@ -144,7 +143,10 @@ body{
     line-height: 2em;
 }
 .profile_qa ul li {
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-left: 1em;
+    text-indent: -1em;
+    font-weight: 500;
 }
 .profile_qa ul li span{
     font-weight: 500;
@@ -211,6 +213,7 @@ body{
 }
 .profile_skill_inner dt{
     text-align: center;
+    width: 30%;
 }
 .profile_skill_inner dt img{
     width: 30px;
@@ -221,16 +224,18 @@ body{
 .profile_skill_inner dt p{
     font-size: 14px;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 .profile_skill_inner dt p span{
     color: #CBCBCB;
 }
 .profile_skill_inner dd{
+    width: 70%;
     font-size: 12px;
     font-weight: 500;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .works_card{
@@ -239,6 +244,22 @@ body{
     margin-right: auto;
 
 }
+.works_card_mov{
+    position: relative;
+    text-align: center;
+
+}
+.works_card video{
+    width: 300px;
+    height: 140px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 56px;
+    margin: auto;
+
+}
+
 .works_card h5{
     font-weight: 500;
 }
