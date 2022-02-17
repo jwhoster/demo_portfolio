@@ -273,7 +273,15 @@ body{
 
 .works_page ul li img{
     width: 20px;
-
+    height: 20px;
+}
+.works_sub{
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.works_sub img{
+    margin-left: 5px;
 }
 
 
@@ -321,10 +329,4 @@ body{
     margin-left: auto;
     margin-right: auto;
     }
-}
-iframe{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    min-height: 100vh;
 }
