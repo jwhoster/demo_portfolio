@@ -1,7 +1,6 @@
-p,h1,h2,h3,h4,h5,ul{
+p,h1,h2,h3,h4,h5,ul,li{
     margin: 0;
     padding: 0;
-
 }
 dl{
     margin: 0;
@@ -32,6 +31,7 @@ body{
     font-weight: 400;
     min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 .pc_top{
     position: fixed;
@@ -39,14 +39,16 @@ body{
     height: 100vh;
     background-size: cover;
     background-image: url(../img/index/key_visual.jpg);
-    opacity: 0.2;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
 }
 .site_title{
     position: absolute;
     top: 3%;
     left: 5%;
+    color: #000;
+    line-height: 2em;
     font-weight: 300;
-    line-height: 2;
 }
 #top{ 
     width: 375px;
@@ -57,29 +59,27 @@ body{
     right: 0;
     margin: auto;
     position: relative;
-
 }
-.top_inner{
-    width: 335px;
-    margin-left: auto;
-    margin-right: auto;
+.kv img{
+    width: 100%;
 }
-
 #header{
     z-index: 1;
     position: fixed;
-    margin-left: 250px;
+    top: 3%;
+    right: 5%;
 } 
-
-#header li{
+#header .gnavi li{
     font-family: 'Raleway', sans-serif;
     list-style: none;
-    padding: 20px 10px;
+    line-height: 2em;
+    padding-bottom: 50px;
     text-align: left;
-    
+    font-size: 20px;
 }
 #header li span{
     font-family: 'Bai Jamjuree', sans-serif;
+    padding-right: 5px;
 }
 #header li a{
     text-decoration: none;
@@ -89,18 +89,22 @@ body{
     color: gray;
   }
 
-.top_inner .kv{
-    width: 100%;
-}
-/* .profile_pic{
-    background-image: url(../img/index/profile_pic.jpg);
-    width: 100%;
-    background-size: ;
-    background-position: left;
-    height: 348px;
-    background-repeat: no-repeat;
-    box-shadow: 10px 10px 0 gray;
-} */
+
+
+  .top_inner{
+      width: 335px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* .profile_pic{
+        background-image: url(../img/index/profile_pic.jpg);
+        width: 100%;
+        background-size: ;
+        background-position: left;
+        height: 348px;
+        background-repeat: no-repeat;
+        box-shadow: 10px 10px 0 gray;
+    } */
 .profile_pic{
     width: 335px;
     height: 310px;
@@ -203,6 +207,7 @@ body{
 }
 
 
+
 .profile_skill_inner dl{
     display: flex;
     width: 335px;
@@ -238,16 +243,16 @@ body{
     text-align: center;
 }
 
+
+
 .works_card{
     width: 335px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .works_card_mov{
     position: relative;
     text-align: center;
-
 }
 .works_card video{
     width: 300px;
@@ -257,9 +262,7 @@ body{
     right: 0;
     top: 56px;
     margin: auto;
-
 }
-
 .works_card h5{
     font-weight: 500;
     text-align: center;
@@ -270,7 +273,6 @@ body{
     line-height: 2em;
     padding-top: 20px;
 }
-
 .works_page ul li img{
     width: 20px;
     height: 20px;
@@ -283,6 +285,7 @@ body{
 .works_sub img{
     margin-left: 5px;
 }
+
 
 
 .contact_page p{
@@ -304,10 +307,31 @@ body{
 .contact_button p{
     color: #fff;
 }
+.copywright{
+    font-size: 10px;
+    line-height: 2em;
+    text-align: center;
+}
+
+
 
 @media screen and (max-width:768px){
     .pc_top{
         display: none;
+    }
+    #header  .gnavi li{
+        font-family: 'Raleway', sans-serif;
+        list-style: none;
+        padding: 20px 10px;
+        text-align: left;
+        
+    }
+    #header li span{
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    #header li a{
+        text-decoration: none;
+        color: #000;
     }
 }
 @media screen and (max-width:768px){
