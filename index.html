@@ -296,7 +296,7 @@
         <script>
             $(function(){
             $('a[href^="#"]').click(function(){
-                var adjust = 0;
+                var adjust = -25;
                 var speed = 500;
                 var href= $(this).attr("href");
                 var target = $(href == "#" || href == "" ? 'html' : href);
